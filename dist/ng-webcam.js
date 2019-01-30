@@ -110,6 +110,7 @@
         if(angular.isUndefined(vm.config.delay)) vm.config.delay = 0;
         if(angular.isUndefined(vm.config.shots)) vm.config.shots = 1;
         if(angular.isUndefined(vm.config.countdown)) vm.config.countdown = 0;
+        if(angular.isUndefined(vm.config.flipHoriz)) vm.config.flipHoriz = 0;
         configureListeners();
         configure();
       }
@@ -148,7 +149,7 @@
           force_flash: false,
           image_format: 'jpeg',
           jpeg_quality: 100,
-          flip_horiz: true
+          flip_horiz: vm.config.flipHoriz
         });
         if(angular.isDefined(vm.config.flashNotDetectedText)) {
           Webcam.set('flashNotDetectedText', vm.config.flashNotDetectedText);
