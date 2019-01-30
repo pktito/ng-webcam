@@ -1,5 +1,5 @@
 {
-  "name": "ng-webcam",
+  "name": "tmb-ng-webcam",
   "description": "AngularJS module for capturing images from your computer's camera.",
   "main": "dist/ng-webcam.js",
   "dependencies": {
@@ -32,5 +32,6 @@
     "src",
     "codecov.yml",
     "gulpfile.js"
-  ]
+  ],
+  "private": true
 }
