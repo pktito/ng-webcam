@@ -20,7 +20,7 @@
     "module",
     "directive"
   ],
-  "homepage": "https://github.com/weberamaral/ng-webcam",
+  "homepage": "git@github.com:pktito/ng-webcam.git",
   "ignore": [
     "**/.*",
     "node_modules",
